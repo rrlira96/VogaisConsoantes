@@ -32,7 +32,52 @@ export default function App() {
   const vowelConsonant = (value) => {
     let countVowel = 0;
     let countConsonant = 0;
-    const vowels = ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"];
+    const vowels = [
+      "a",
+      "á",
+      "à",
+      "ã",
+      "â",
+      "A",
+      "Á",
+      "À",
+      "Ã",
+      "Â",
+      "e",
+      "é",
+      "è",
+      "ê",
+      "E",
+      "É",
+      "È",
+      "Ê",
+      "i",
+      "í",
+      "ì",
+      "î",
+      "I",
+      "Í",
+      "Ì",
+      "Î",
+      "o",
+      "ó",
+      "ò",
+      "ô",
+      "õ",
+      "O",
+      "Ó",
+      "Ò",
+      "Õ",
+      "Ô",
+      "u",
+      "ú",
+      "ù",
+      "û",
+      "U",
+      "Ú",
+      "Ù",
+      "Û",
+    ];
     for (i = 0; i < value.length; i++) {
       if (value[i] != " ") {
         if (vowels.includes(value[i])) {
